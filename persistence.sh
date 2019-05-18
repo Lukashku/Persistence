@@ -1,4 +1,5 @@
 #!/bin/bash
+#Takes your USB which is already flashed with Kali or Parrot and makes it persistence
 
 echo "$(whoami)"
 [ "$UID" -eq 0 ] || exec sudo "$0" "$@"
